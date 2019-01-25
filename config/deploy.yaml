@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: host.docker.internal:5000/mnuttall/simple-from-pipeline
+        image: host.docker.internal:5000/knative/simple
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
