@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: host.docker.internal:5000/knative/simple
+        image: host.docker.internal:5000/knative/sample
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
