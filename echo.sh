@@ -1,1 +1,1 @@
-echo "Access this example at localhost:31000"
+echo "Access this example at http://localhost:31000"
