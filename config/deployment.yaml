@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: host.docker.internal:5000/knative/sample
+        image: PIPELINE_REPLACE:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
