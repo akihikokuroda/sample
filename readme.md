@@ -1,4 +1,4 @@
-I'm testing this using an insecure docker registry running on my local machine.    
+I'm testing this using an insecure docker registry running on my local machine.    s
 
 To run the local registry:
 
